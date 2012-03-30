@@ -46,6 +46,7 @@ a:active {
 {
 	background: url(../images/transback.png) repeat-y top center;
 	padding:20px;
+	margin-bottom:20px;
 }
 
 a#logo
@@ -74,14 +75,18 @@ a#logo
 }
 #navigation
 {
-	height:20px;
+	height:40px;
 	background: url(../images/navigation.gif) no-repeat top left;
-	padding:10px 20px 10px 20px;
+}
+#navigation ul#main-menu
+{
+	padding:10px 20px;
 }
 #navigation li a
 {
 	text-decoration:none;
 	font: 15px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	padding-right:20px;
 
 	text-transform: uppercase;
 }
@@ -92,7 +97,7 @@ a#logo
 #navigation ul#main-menu li.last
 {
 	float:right;
-	padding-right:50px;
+	padding-right:0px;
 }
 #navigation ul#main-menu li.last a
 {

@@ -1,3 +1,7 @@
+body.page-forum #content .section
+{
+	background:#000 url("../images/back-forum.jpg");
+}
 td.forum-details
 {
 	padding:10px;
@@ -9,4 +13,34 @@ td.forum-last-reply
 #forum-statistics-active-header, #forum-statistics-statistics-header, .forum-list-icon-legend 
 {
 	color:#ffffff;
+}
+
+tr.even td.forum-list-icon-new-posts .forum-list-icon-wrapper span, tr.odd td.forum-list-icon-new-posts .forum-list-icon-wrapper span, .forum-list-icon-legend .forum-list-icon-new-posts {
+    background: url("../images/on.png") no-repeat scroll center center transparent;
+}
+
+.forum-list-icon-legend .forum-list-icon-new-posts {
+    background: url("../images/on.png") no-repeat scroll center center transparent;
+}
+.forum-list-icon-wrapper span {
+    display: block;
+    height: 50px;
+    text-indent: -9999px;
+    width: 50px;
+}
+tr.even td.forum-list-icon-default .forum-list-icon-wrapper span, tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span, .forum-list-icon-legend .forum-list-icon-default {
+    background: url("../images/off.png") no-repeat scroll center center transparent;
+}
+
+.forum-list-icon-legend .forum-list-icon-default {
+    background: url("../images/off.png") no-repeat scroll center center transparent;
+}
+.forum-topic-legend
+{
+	color:white;
+}
+
+.forum-post-panel-main, .forum-post-content p
+{
+	color:#1c1c1c;
 }
