@@ -1,0 +1,12 @@
+td.forum-details
+{
+	padding:10px;
+}
+td.forum-last-reply
+{
+	padding-left:20px;
+}
+#forum-statistics-active-header, #forum-statistics-statistics-header, .forum-list-icon-legend 
+{
+	color:#ffffff;
+}

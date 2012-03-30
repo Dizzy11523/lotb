@@ -1,0 +1,17 @@
+<?php
+// $Id: blocktheme.install,v 1.2.2.1 2010/12/08 08:08:19 amateescu Exp $
+
+/**
+ * @file
+ *   Install file for blocktheme module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function blocktheme_uninstall() {
+  variable_del('blocktheme');
+  variable_del('blocktheme_show_custom_block_theme');
+  variable_del('blocktheme_themes');
+  variable_del('blocktheme_vars');
+}

@@ -1,0 +1,11 @@
+name = Menu UX
+description = Allow users to easily position new nodes in a menu.
+package = User interface
+dependencies[] = menu
+core = 7.x
+; Information added by drupal.org packaging script on 2011-05-01
+version = "7.x-1.0-beta2"
+core = "7.x"
+project = "menuux"
+datestamp = "1304234818"
+

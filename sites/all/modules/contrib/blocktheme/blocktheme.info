@@ -1,0 +1,13 @@
+; $Id: blocktheme.info,v 1.2.2.2 2010/12/09 06:51:49 amateescu Exp $;
+name = Block Theme
+description = Provides a configuration option to select custom themes for blocks
+core = 7.x
+files[] = blocktheme.module
+configure = admin/config/user-interface/blocktheme
+
+; Information added by drupal.org packaging script on 2011-01-05
+version = "7.x-1.0"
+core = "7.x"
+project = "blocktheme"
+datestamp = "1294263978"
+
