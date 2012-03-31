@@ -44,3 +44,12 @@ tr.even td.forum-list-icon-default .forum-list-icon-wrapper span, tr.odd td.foru
 {
 	color:#1c1c1c;
 }
+.forum-node-create-links
+{
+	padding:20px 0 20px 0;
+}
+
+.chatter-pane ul li#nodejs-chatbar-uid-3 a.username 
+{
+	color:red;
+}

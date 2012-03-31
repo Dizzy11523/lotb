@@ -2,6 +2,7 @@ body
 {
 	background: #000 url(../images/lotb-back.jpg) no-repeat top center;
 	font-family: Arial, "MS Trebuchet", sans-serif;
+	background-attachment: fixed;
 }
 body.page-forum
 {
@@ -190,9 +191,9 @@ ul.action-links li a {
 
 /***  CSS Gradient  ***/
 /*  Chrome 1-9 and Safari 4-5.0  */
-.sidebar
-{
-	padding-top:20px;
+.region-sidebar-first .section, .region-sidebar-second .section {
+    margin: 20px;
+    padding: 0;
 }
 .sidebar{
 background-image: -webkit-gradient(linear, left top, left bottom,
@@ -231,4 +232,33 @@ background-image: linear-gradient(top,
 }
 .with-navigation #content, .with-navigation .region-sidebar-first, .with-navigation .region-sidebar-second {
     margin-top: 0;
+}
+
+/*Private MEssages*/
+
+#block-privatemsg-privatemsg-menu
+{
+	width:300px;
+	background-color:black;
+float:right;
+-moz-border-radius: 15px;
+border-radius: 15px;
+padding:20px;
+margin-top:90px;
+opacity:0.5;
+}
+.region-header {
+    clear: none;
+}
+
+h2.block-title
+{
+	font-weight:normal;
+	font-size:18px;
+	background-color:black;
+	padding:10px;
+}
+ul.menu
+{
+	margin:5px 0 0 0;
 }

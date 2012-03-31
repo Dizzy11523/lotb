@@ -64,7 +64,7 @@ CKEDITOR.editorConfig = function(config) {
  */
 
 //Toolbar definition for basic buttons
-Drupal.settings.cke_toolbar_DrupalBasic = [ [ 'Format', 'Bold', 'Italic', '-', 'NumberedList','BulletedList', '-', 'Link', 'Unlink', 'Image' ] ];
+Drupal.settings.cke_toolbar_DrupalBasic = [ [ 'Format','TextColor','Font','FontSize','Bold','Italic','Underline','Strike', '-', 'NumberedList','BulletedList', '-', 'Link', 'Unlink', 'Image','Smiley' ] ];
 
 //Toolbar definition for Advanced buttons
 Drupal.settings.cke_toolbar_DrupalAdvanced = [
