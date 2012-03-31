@@ -262,3 +262,12 @@ ul.menu
 {
 	margin:5px 0 0 0;
 }
+#watch-longform-ad-placeholder, #watch-longform-ad
+{
+	display:none !important;
+}
+
+.player-container, #video-player-flash
+{
+	height:500px !important;
+}
